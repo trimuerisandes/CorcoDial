@@ -64,7 +64,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
-
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/appbar">
@@ -142,7 +141,107 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_phone">
 
-                <TextView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="10dp"
+                    android:src="@drawable/ic_edit"
+                    android:background="@drawable/bgx_rounded_transparent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/ic_star"
+                        android:background="@drawable/bgx_rounded_transparent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Favorite"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/ic_block"
+                        android:background="@drawable/bgx_rounded_transparent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Block"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/ic_share"
+                        android:background="@drawable/bgx_rounded_transparent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/ic_trash"
+                        android:background="@drawable/bgx_rounded_transparent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delete"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <!--<TextView
                     android:id="@+id/tagihan_pulsa"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -152,8 +251,8 @@
                     android:text="Edit"
                     android:textAlignment="center"
                     android:textColor="@color/white" />
-
-                <TextView
+-->
+                <!--<TextView
                     android:id="@+id/internetpasca"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -174,8 +273,8 @@
                     android:text="Block"
                     android:textAlignment="center"
                     android:textColor="@color/white" />
-
-                <TextView
+-->
+              <!--  <TextView
                     android:id="@+id/gaspasca"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -197,7 +296,7 @@
                     android:text="Share"
                     android:textAlignment="center"
                     android:textColor="@color/white" />
-
+-->
 
             </LinearLayout>
 
@@ -218,7 +317,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal"
                     android:weightSum="4"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -230,25 +329,37 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/ic_chat" />
+                        android:paddingVertical="10dp"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bgx_circle_outline"
+                        android:src="@drawable/ic_phone" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:paddingVertical="10dp"
+                        android:background="@drawable/bgx_circle_outline"
+                        android:layout_margin="15dp"
                         android:src="@drawable/ic_chat" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/bgx_circle_outline"
+                        android:paddingVertical="10dp"
+                        android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:src="@drawable/ic_chat" />
+                        android:src="@drawable/ic_chat_bubble" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/ic_chat" />
+                        android:background="@drawable/bgx_circle_outline"
+                        android:paddingVertical="10dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/ic_message" />
 
 
                 </LinearLayout>
