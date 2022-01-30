@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/layoutExpanded"
+        motion:constraintSetStart="@id/layoutCollapse"
+        motion:duration="600">
+
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@id/imageEmojiBottom" />
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/layoutCollapse">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/layoutExpanded">
+    </ConstraintSet>
+</MotionScene>
