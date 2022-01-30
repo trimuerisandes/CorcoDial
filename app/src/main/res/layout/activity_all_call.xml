@@ -34,13 +34,13 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="20dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="20dp"
                         android:drawableStart="@drawable/ic_back_left"
                         android:text="@string/back"
                         android:textColor="@color/white"
@@ -49,9 +49,9 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:src="@drawable/ic_baseline_more_vert_24"
+                        android:layout_alignParentRight="true"
                         android:layout_centerInParent="true"
-                        android:layout_alignParentRight="true" />
+                        android:src="@drawable/ic_baseline_more_vert_24" />
 
 
                 </RelativeLayout>
