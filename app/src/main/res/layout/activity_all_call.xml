@@ -317,7 +317,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:orientation="horizontal"
                     android:weightSum="4"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -329,25 +329,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingVertical="10dp"
                         android:layout_margin="15dp"
-                        android:background="@drawable/bgx_circle_outline"
                         android:src="@drawable/ic_phone" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingVertical="10dp"
-                        android:background="@drawable/bgx_circle_outline"
                         android:layout_margin="15dp"
                         android:src="@drawable/ic_chat" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bgx_circle_outline"
-                        android:paddingVertical="10dp"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
                         android:src="@drawable/ic_chat_bubble" />
@@ -356,8 +350,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@drawable/bgx_circle_outline"
-                        android:paddingVertical="10dp"
                         android:layout_margin="15dp"
                         android:src="@drawable/ic_message" />
 

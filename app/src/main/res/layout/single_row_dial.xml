@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:background="@drawable/bg_numbering"
+        android:background="@drawable/ic_bg_number"
         android:gravity="center"
         android:text="1"
         android:textColor="@color/white"
