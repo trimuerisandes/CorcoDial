@@ -9,11 +9,16 @@
         <entry key="app/src/main/res/drawable/bgx_circle_outline.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/bgx_circle_transparent.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/bgx_main_white.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable/bgx_rectangle_white.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/bgx_rounded_transparent.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_bg_number.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
-        <entry key="app/src/main/res/layout/activity_all_call.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_phone.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable/ic_play.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.1995" />
+        <entry key="app/src/main/res/layout/activity_all_call.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13240740740740742" />
         <entry key="app/src/main/res/layout/single_row_dial.xml" value="0.5" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.263" />

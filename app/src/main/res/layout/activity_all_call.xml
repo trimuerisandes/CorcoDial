@@ -42,9 +42,10 @@
                         android:layout_height="match_parent"
                         android:layout_alignParentLeft="true"
                         android:drawableStart="@drawable/ic_back_left"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
                         android:text="@string/back"
-                        android:textColor="@color/white"
-                        android:gravity="center"/>
+                        android:textColor="@color/white" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -91,9 +92,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="13dp"
                 android:background="@drawable/bgx_circle_transparent"
-                android:paddingHorizontal="15dp"
+                android:paddingHorizontal="17dp"
                 android:paddingVertical="5dp"
                 android:text="Collegoues"
                 android:textColor="@color/white"
@@ -111,6 +112,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Craig Boyd"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -148,16 +151,17 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:paddingHorizontal="15dp"
-                    android:paddingVertical="10dp"
+                    android:paddingVertical="15dp"
                     android:src="@drawable/ic_edit"
                     android:background="@drawable/bgx_rounded_transparent"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Edit"
+                        android:paddingTop="3dp"
                         android:textAlignment="center"
                         android:textColor="@color/white"/>
                 </LinearLayout>
@@ -168,16 +172,17 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:paddingHorizontal="15dp"
-                        android:paddingVertical="10dp"
+                        android:paddingVertical="15dp"
                         android:src="@drawable/ic_star"
                         android:background="@drawable/bgx_rounded_transparent"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Favorite"
+                        android:paddingTop="3dp"
                         android:textAlignment="center"
                         android:textColor="@color/white"/>
                 </LinearLayout>
@@ -188,8 +193,8 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:paddingHorizontal="15dp"
                         android:paddingVertical="10dp"
                         android:src="@drawable/ic_block"
@@ -198,6 +203,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Block"
+                        android:paddingTop="3dp"
                         android:textAlignment="center"
                         android:textColor="@color/white"/>
                 </LinearLayout>
@@ -208,8 +214,8 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:paddingHorizontal="15dp"
                         android:paddingVertical="10dp"
                         android:src="@drawable/ic_share"
@@ -218,6 +224,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Share"
+                        android:paddingTop="3dp"
                         android:textAlignment="center"
                         android:textColor="@color/white"/>
                 </LinearLayout>
@@ -228,8 +235,8 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:paddingHorizontal="15dp"
                         android:paddingVertical="10dp"
                         android:src="@drawable/ic_trash"
@@ -238,6 +245,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Delete"
+                        android:paddingTop="3dp"
                         android:textAlignment="center"
                         android:textColor="@color/white"/>
                 </LinearLayout>
@@ -317,7 +325,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal"
                     android:weightSum="4"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -326,31 +334,27 @@
 
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"
                         android:src="@drawable/ic_phone" />
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"
                         android:src="@drawable/ic_chat" />
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
                         android:src="@drawable/ic_chat_bubble" />
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"
                         android:src="@drawable/ic_message" />
 
 
@@ -361,6 +365,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Quick Contact"
+                    android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -394,11 +399,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:text="Today,28 November 2021"
+                android:text="Today"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="@+id/switchCompat2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/switchCompat2" />
+
+            <TextView
+                android:id="@+id/textViewf3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text=", 28 November 2021"
+                app:layout_constraintBottom_toBottomOf="@+id/switchCompat2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toStartOf="@id/textView2"
                 app:layout_constraintTop_toTopOf="@+id/switchCompat2" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
@@ -419,7 +438,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
-                android:text="Call Only"
+                android:textColor="@color/black"
+                android:theme="@style/SCBSwitch"
+                android:text="Calls Only"
                 app:layout_constraintBottom_toBottomOf="@+id/switchCompat2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
